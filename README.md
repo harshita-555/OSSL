@@ -14,7 +14,15 @@ Please follow the instruction below to install it and run the experiment demo.
 * You might need to change the file paths, and please be sure you change the corresponding paths in the codes as well     
 
 ## Getting started
-  Learn classifier on CIFAR-10 (DenseNet-10-12)
+1. Clone the repository using the following command
+```
+git clone https://github.com/harshita-555/OSSL.git
+```
+2. Change your working directory to OSSL/
+```
+cd OSSL
+```
+3. Learn classifier on CIFAR-10 (DenseNet-10-12)
   ```bash
     # Save as "PROJECT_DIR/DenseNet-40-12-ss/checkpoint.pth.tar"
     # Modified based on the wonderful github of https://github.com/andreasveit/densenet-pytorch
@@ -24,3 +32,10 @@ Please follow the instruction below to install it and run the experiment demo.
 
 ## License
 MIT
+
+## Reference
+
+The implementation reused some portions from [Accuracy-estimation-with-self-supervision](https://github.com/Simon4Yan/Accuracy-estimation-with-self-supervision.git)[1].
+
+
+1. W. Deng, S. Gould, and L. Zheng, “What does rotation prediction tell us about classifier accuracy under varying testing environments?” in International Conference on Machine Learning. PMLR, 2021, pp.2579–2589.
